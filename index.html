@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="lib/style.css">
+        <script src="lib/script.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <header id="header">
+                <h1>XLent!</h1>
+            </header>
+
+            <div id="content">
+                <form id="xl-dimensions">
+                    <input
+                        id="xl-rows"
+                        name="rows"
+                        type="number"
+                        placeholder="Enter no of rows"
+                        required value="5">
+                    
+                    <input
+                        id="xl-cols"
+                        name="cols"
+                        type="number"
+                        placeholder="Enter no of cols"
+                        required value="6">
+                    
+                    <button id="xl-create" type="button" onclick="createSheet()">Create</button>
+                </form>
+                <div id="xl-workspace">
+    
+                </div>
+                <div id="xl-menu">
+                    <ul id="xl-menu-items">
+                        <li onclick="insertRow(event)" class="xl-menu-item">Insert row</li>
+                        <li onclick="insertCol(event)" class="xl-menu-item">Insert col</li>
+                        <li onclick="deleteRow(event)" class="xl-menu-item">Delete row</li>
+                        <li onclick="deleteCol(event)" class="xl-menu-item">Delete col</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
