@@ -18,6 +18,10 @@ h1, h5 {
     background-color: #fb0;
 }
 
+#source-link {
+    color: #fff;
+}
+
 #content {
     padding: 20px;
 }
