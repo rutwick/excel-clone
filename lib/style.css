@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-h1 {
+h1, h5 {
     margin: 0;
     padding: 0;
 }
@@ -34,14 +34,16 @@ h1 {
     border: 1px solid #444;
 }
 
-input {
+.xl-field {
     width: 60px;
 }
 
-input:focus {
+.xl-field:focus {
     outline: none;
     border: none;
 }
+
+
 
 input:disabled {
     border: none;
@@ -68,4 +70,31 @@ input:disabled {
 .xl-menu-item {
     padding: 5px;
     border-bottom: 1px solid #444;
+}
+
+.xl-sort {
+    background-color: #eee;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: purple;
+    cursor: pointer;
+}
+
+#xl-header-row {
+    padding: 2px 0;
+}
+
+#xl-header-row td {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #fb0;
+    width: 80%;
 }
