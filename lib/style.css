@@ -43,6 +43,12 @@ h1, h5 {
     border: none;
 }
 
+#error {
+    display: none;
+    margin: 20px;
+    font-size: 13px;
+    color: #ff0000;
+}
 
 
 input:disabled {
